@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E251E33E1D1BAE2D00386515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E251E33D1D1BAE2D00386515 /* AppDelegate.swift */; };
+		E251E3451D1BAE2D00386515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E251E3441D1BAE2D00386515 /* Assets.xcassets */; };
+		E251E3481D1BAE2D00386515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E251E3461D1BAE2D00386515 /* LaunchScreen.storyboard */; };
+		E251E3531D1BAE2D00386515 /* Kno_Yo_WuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E251E3521D1BAE2D00386515 /* Kno_Yo_WuTests.swift */; };
+		E251E35E1D1BAE2D00386515 /* Kno_Yo_WuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E251E35D1D1BAE2D00386515 /* Kno_Yo_WuUITests.swift */; };
+		E251E36C1D1BAE5800386515 /* WuTangClan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E251E36B1D1BAE5800386515 /* WuTangClan.swift */; };
+		E251E36E1D1BD19400386515 /* WuTangViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E251E36D1D1BD19400386515 /* WuTangViewController.xib */; };
+		E251E3701D1BD8F500386515 /* WuTangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E251E36F1D1BD8F500386515 /* WuTangViewController.swift */; };
+		E251E3721D1C663E00386515 /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E251E3711D1C663E00386515 /* PopAnimator.swift */; };
+		E251E3741D1C67CC00386515 /* WuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E251E3731D1C67CC00386515 /* WuDetailViewController.swift */; };
+		E251E3761D1C680200386515 /* WuDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E251E3751D1C680200386515 /* WuDetailView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E251E34F1D1BAE2D00386515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E251E3321D1BAE2C00386515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E251E3391D1BAE2C00386515;
+			remoteInfo = "Kno-Yo-Wu";
+		};
+		E251E35A1D1BAE2D00386515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E251E3321D1BAE2C00386515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E251E3391D1BAE2C00386515;
+			remoteInfo = "Kno-Yo-Wu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E251E33A1D1BAE2C00386515 /* Kno-Yo-Wu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kno-Yo-Wu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E251E33D1D1BAE2D00386515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E251E3441D1BAE2D00386515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E251E3471D1BAE2D00386515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E251E3491D1BAE2D00386515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E251E34E1D1BAE2D00386515 /* Kno-Yo-WuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kno-Yo-WuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E251E3521D1BAE2D00386515 /* Kno_Yo_WuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kno_Yo_WuTests.swift; sourceTree = "<group>"; };
+		E251E3541D1BAE2D00386515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E251E3591D1BAE2D00386515 /* Kno-Yo-WuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kno-Yo-WuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E251E35D1D1BAE2D00386515 /* Kno_Yo_WuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kno_Yo_WuUITests.swift; sourceTree = "<group>"; };
+		E251E35F1D1BAE2D00386515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E251E36B1D1BAE5800386515 /* WuTangClan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WuTangClan.swift; sourceTree = "<group>"; };
+		E251E36D1D1BD19400386515 /* WuTangViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WuTangViewController.xib; sourceTree = "<group>"; };
+		E251E36F1D1BD8F500386515 /* WuTangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WuTangViewController.swift; sourceTree = "<group>"; };
+		E251E3711D1C663E00386515 /* PopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
+		E251E3731D1C67CC00386515 /* WuDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WuDetailViewController.swift; sourceTree = "<group>"; };
+		E251E3751D1C680200386515 /* WuDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WuDetailView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E251E3371D1BAE2C00386515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E251E34B1D1BAE2D00386515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E251E3561D1BAE2D00386515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E251E3311D1BAE2C00386515 = {
+			isa = PBXGroup;
+			children = (
+				E251E33C1D1BAE2D00386515 /* Kno-Yo-Wu */,
+				E251E3511D1BAE2D00386515 /* Kno-Yo-WuTests */,
+				E251E35C1D1BAE2D00386515 /* Kno-Yo-WuUITests */,
+				E251E33B1D1BAE2C00386515 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E251E33B1D1BAE2C00386515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E251E33A1D1BAE2C00386515 /* Kno-Yo-Wu.app */,
+				E251E34E1D1BAE2D00386515 /* Kno-Yo-WuTests.xctest */,
+				E251E3591D1BAE2D00386515 /* Kno-Yo-WuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E251E33C1D1BAE2D00386515 /* Kno-Yo-Wu */ = {
+			isa = PBXGroup;
+			children = (
+				E251E33D1D1BAE2D00386515 /* AppDelegate.swift */,
+				E251E36F1D1BD8F500386515 /* WuTangViewController.swift */,
+				E251E36D1D1BD19400386515 /* WuTangViewController.xib */,
+				E251E3731D1C67CC00386515 /* WuDetailViewController.swift */,
+				E251E3751D1C680200386515 /* WuDetailView.xib */,
+				E251E36B1D1BAE5800386515 /* WuTangClan.swift */,
+				E251E3711D1C663E00386515 /* PopAnimator.swift */,
+				E251E3441D1BAE2D00386515 /* Assets.xcassets */,
+				E251E3461D1BAE2D00386515 /* LaunchScreen.storyboard */,
+				E251E3491D1BAE2D00386515 /* Info.plist */,
+			);
+			path = "Kno-Yo-Wu";
+			sourceTree = "<group>";
+		};
+		E251E3511D1BAE2D00386515 /* Kno-Yo-WuTests */ = {
+			isa = PBXGroup;
+			children = (
+				E251E3521D1BAE2D00386515 /* Kno_Yo_WuTests.swift */,
+				E251E3541D1BAE2D00386515 /* Info.plist */,
+			);
+			path = "Kno-Yo-WuTests";
+			sourceTree = "<group>";
+		};
+		E251E35C1D1BAE2D00386515 /* Kno-Yo-WuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E251E35D1D1BAE2D00386515 /* Kno_Yo_WuUITests.swift */,
+				E251E35F1D1BAE2D00386515 /* Info.plist */,
+			);
+			path = "Kno-Yo-WuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E251E3391D1BAE2C00386515 /* Kno-Yo-Wu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E251E3621D1BAE2D00386515 /* Build configuration list for PBXNativeTarget "Kno-Yo-Wu" */;
+			buildPhases = (
+				E251E3361D1BAE2C00386515 /* Sources */,
+				E251E3371D1BAE2C00386515 /* Frameworks */,
+				E251E3381D1BAE2C00386515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kno-Yo-Wu";
+			productName = "Kno-Yo-Wu";
+			productReference = E251E33A1D1BAE2C00386515 /* Kno-Yo-Wu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E251E34D1D1BAE2D00386515 /* Kno-Yo-WuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E251E3651D1BAE2D00386515 /* Build configuration list for PBXNativeTarget "Kno-Yo-WuTests" */;
+			buildPhases = (
+				E251E34A1D1BAE2D00386515 /* Sources */,
+				E251E34B1D1BAE2D00386515 /* Frameworks */,
+				E251E34C1D1BAE2D00386515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E251E3501D1BAE2D00386515 /* PBXTargetDependency */,
+			);
+			name = "Kno-Yo-WuTests";
+			productName = "Kno-Yo-WuTests";
+			productReference = E251E34E1D1BAE2D00386515 /* Kno-Yo-WuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E251E3581D1BAE2D00386515 /* Kno-Yo-WuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E251E3681D1BAE2D00386515 /* Build configuration list for PBXNativeTarget "Kno-Yo-WuUITests" */;
+			buildPhases = (
+				E251E3551D1BAE2D00386515 /* Sources */,
+				E251E3561D1BAE2D00386515 /* Frameworks */,
+				E251E3571D1BAE2D00386515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E251E35B1D1BAE2D00386515 /* PBXTargetDependency */,
+			);
+			name = "Kno-Yo-WuUITests";
+			productName = "Kno-Yo-WuUITests";
+			productReference = E251E3591D1BAE2D00386515 /* Kno-Yo-WuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E251E3321D1BAE2C00386515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "SpaceBoat Development LLC";
+				TargetAttributes = {
+					E251E3391D1BAE2C00386515 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E251E34D1D1BAE2D00386515 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E251E3391D1BAE2C00386515;
+					};
+					E251E3581D1BAE2D00386515 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E251E3391D1BAE2C00386515;
+					};
+				};
+			};
+			buildConfigurationList = E251E3351D1BAE2C00386515 /* Build configuration list for PBXProject "Kno-Yo-Wu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E251E3311D1BAE2C00386515;
+			productRefGroup = E251E33B1D1BAE2C00386515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E251E3391D1BAE2C00386515 /* Kno-Yo-Wu */,
+				E251E34D1D1BAE2D00386515 /* Kno-Yo-WuTests */,
+				E251E3581D1BAE2D00386515 /* Kno-Yo-WuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E251E3381D1BAE2C00386515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E251E36E1D1BD19400386515 /* WuTangViewController.xib in Resources */,
+				E251E3481D1BAE2D00386515 /* LaunchScreen.storyboard in Resources */,
+				E251E3451D1BAE2D00386515 /* Assets.xcassets in Resources */,
+				E251E3761D1C680200386515 /* WuDetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E251E34C1D1BAE2D00386515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E251E3571D1BAE2D00386515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E251E3361D1BAE2C00386515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E251E3741D1C67CC00386515 /* WuDetailViewController.swift in Sources */,
+				E251E36C1D1BAE5800386515 /* WuTangClan.swift in Sources */,
+				E251E3701D1BD8F500386515 /* WuTangViewController.swift in Sources */,
+				E251E3721D1C663E00386515 /* PopAnimator.swift in Sources */,
+				E251E33E1D1BAE2D00386515 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E251E34A1D1BAE2D00386515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E251E3531D1BAE2D00386515 /* Kno_Yo_WuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E251E3551D1BAE2D00386515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E251E35E1D1BAE2D00386515 /* Kno_Yo_WuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E251E3501D1BAE2D00386515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E251E3391D1BAE2C00386515 /* Kno-Yo-Wu */;
+			targetProxy = E251E34F1D1BAE2D00386515 /* PBXContainerItemProxy */;
+		};
+		E251E35B1D1BAE2D00386515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E251E3391D1BAE2C00386515 /* Kno-Yo-Wu */;
+			targetProxy = E251E35A1D1BAE2D00386515 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E251E3461D1BAE2D00386515 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E251E3471D1BAE2D00386515 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E251E3601D1BAE2D00386515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E251E3611D1BAE2D00386515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E251E3631D1BAE2D00386515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kno-Yo-Wu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SpaceboatDVLP.Kno-Yo-Wu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E251E3641D1BAE2D00386515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kno-Yo-Wu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SpaceboatDVLP.Kno-Yo-Wu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E251E3661D1BAE2D00386515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kno-Yo-WuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SpaceboatDVLP.Kno-Yo-WuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kno-Yo-Wu.app/Kno-Yo-Wu";
+			};
+			name = Debug;
+		};
+		E251E3671D1BAE2D00386515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kno-Yo-WuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SpaceboatDVLP.Kno-Yo-WuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kno-Yo-Wu.app/Kno-Yo-Wu";
+			};
+			name = Release;
+		};
+		E251E3691D1BAE2D00386515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kno-Yo-WuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SpaceboatDVLP.Kno-Yo-WuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kno-Yo-Wu";
+			};
+			name = Debug;
+		};
+		E251E36A1D1BAE2D00386515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kno-Yo-WuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SpaceboatDVLP.Kno-Yo-WuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kno-Yo-Wu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E251E3351D1BAE2C00386515 /* Build configuration list for PBXProject "Kno-Yo-Wu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E251E3601D1BAE2D00386515 /* Debug */,
+				E251E3611D1BAE2D00386515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E251E3621D1BAE2D00386515 /* Build configuration list for PBXNativeTarget "Kno-Yo-Wu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E251E3631D1BAE2D00386515 /* Debug */,
+				E251E3641D1BAE2D00386515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E251E3651D1BAE2D00386515 /* Build configuration list for PBXNativeTarget "Kno-Yo-WuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E251E3661D1BAE2D00386515 /* Debug */,
+				E251E3671D1BAE2D00386515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E251E3681D1BAE2D00386515 /* Build configuration list for PBXNativeTarget "Kno-Yo-WuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E251E3691D1BAE2D00386515 /* Debug */,
+				E251E36A1D1BAE2D00386515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E251E3321D1BAE2C00386515 /* Project object */;
+}
